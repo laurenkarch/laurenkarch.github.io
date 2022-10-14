@@ -1,218 +1,193 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset=utf-8 />
-  <title>Lab 8: Denver home location exercise</title>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <!-- Is the is the latest version of Leaflet? -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: rgb(43, 43, 43);
-      font-family: "Lato", sans-serif;
-      font-size: 100%;
-      font-weight: 300;
-      color: rgb(172, 172, 172);
-    }
+  <title>MAP673 Portfolio Starter Template</title>
 
-    header,
-    footer,
-    section {
-      padding: 6px 10%;
-      margin: 0 auto;
-      width: 80%
-    }
+  <!-- Bootstrap CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    h1 {
-      display: inline-block;
-      margin-right: 20px;
-      color: rgb(190, 190, 190);
-      font-size: 3.5em;
-      font-weight: 700;
-    }
+  <!-- Font Awesome CSS from CDN -->
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
 
-    h2 {
-      display: inline-block;
-      color: rgba(255, 200, 0, 0.8);
-      letter-spacing: 0.05em;
-      margin-top: 0px;
-      font-weight: 300;
-      text-transform: uppercase;
-      border-bottom: 1px dotted rgba(255, 200, 0, 0.5);
-      ;
-    }
+  <!-- Google web font -->
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
 
-    #map {
-      width: 80%;
-      height: 540px;
-      margin: 10px auto;
-    }
-
-    p {
-      font-size: 1em;
-      color: rgba(170, 170, 170);
-      ;
-      font-weight: 300;
-      font-size: 1.2em;
-    }
-  </style>
+  <!-- Custom styles for this template -->
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-  <header>
-    <h1>Lab 8</h1>
-    <h2>Let's find some stuff!</h2>
+<body id="page-top">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#page-top">Lauren Karch</a>
+      <div class="float-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Welcome Section -->
+  <header class="bg-secondary text-white">
+    <div class="container text-center">
+      <h1>Portfolio of Work from MAPS 671 and 672</h1>
+      <p class="lead">
+        <a href="https://newmapsplus.as.uky.edu/">New Maps Plus</a> student based in Ohio, hoping to master Leaflet and a natural-sounding "y'all."
+      </p>
+    </div>
   </header>
 
-  <div id='map'></div>
+  <!-- Projects Section -->
+  <section id="projects" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/police.jpg" alt="Police Pursuits Thumbnail" /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a target="_blank" href="https://laurenkarch.github.io/mapping-police-pursuits/Images/poster8000.png">Mapping
+                  Police Pursuits</a>
+              </h4>
+              <p class="card-text">
+                Maps traffic fatalities involving police pursuits, using NHTSA data, and suggests mapping as a tool to
+                further study pursuit-related fatalities.
+                Map created QGIS 3.22.5. The basemap uses OpenStreetMap and Census TIGER data. Poster created in Adobe
+                Illustrator.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/powerthumb.jpg" alt="Power Plants Thumbnail" /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a target="_blank" href="powermap/index.html">Power Plant Sources</a>
+              </h4>
+              <p class="card-text">
+                Interactive Leaflet map showing power source for power plants across the United States.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/sds_thumb.jpg" alt="School Districts Thumbnail" /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a target="_blank" href="https://laurenkarch.github.io/school_district_incomes/">Median Incomes of Ohio School Districts</a>
+              </h4>
+              <p class="card-text">
+                Static chloropleth map showing median household incomes of Ohio's school districts.
+                Map created using Leaflet. Data from the <a href="https://education.ohio.gov/Topics/Finance-and-Funding/School-Payment-Reports/District-Profile-Reports/FY2018-District-Profile-Report">Ohio Department of Education's 2018 District Profile Report</a>.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/turbinethumb.png" alt="Wind Turbines Thumbnail" /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a target="_blank" href="images/wind_turbines_8000.png">Concentration of Wind Turbines</a>
+              </h4>
+              <p class="card-text">
+               Static hexbinned map showing concentration of wind turbines in the United States. Data from <a href="https://eerscmap.usgs.gov/uswtdb/">United States Wind Turbine Database.</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="images/strawberry.jpg" alt="Road Closure Thumbnail" /></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a target="_blank" href="https://troy.maps.arcgis.com/apps/dashboards/baa916a7189247909a864ecd0df1b706">Troy Ohio Road Closures (Contributor)</a>
+              </h4>
+              <p class="card-text">
+                Rudimentary ArcGIS StoryMap allowing collaboration across City departments, and accessible to residents.
+              </p>
+            </div>
+          </div>
+        </div>
 
-  <footer>
-    <p>Map authored by Lauren Karch</p>
-    <p>Click the map to find objects within one mile of the click point.</p>
+       
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <h2>Hi guys!</h2>
+          <div class="my-5 clearfix">
+            <div class="float-md-left mb-5 mr-md-4">
+              <img class="rounded-circle img-fluid" src="https://images.squarespace-cdn.com/content/v1/62c7385c3abb955e3bc5f9e3/cf099411-809f-4ccf-ae11-760eddc32283/1647396786927.jpg" alt="" />
+            </div>
+            <p class="lead">
+              Hi, Lauren here! I'm finishing MAPS 673 this semester--hit me up with collaboration ideas, cat photos, advice or requests.
+            </p>
+            <p class="lead">
+              Check out my site <a href="www.laurenkarch.com">here.</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        
+        <div class="col-md-6">
+          <h3>Get in touch!</h3>
+          <ul class="list-unstyled">
+            <li class="">
+              <i class="fa fa-twitter mr-2"></i><a href="#">@laurenkarch</a>
+            </li>
+            <li class="mr-2">
+              <i class="fa fa-github mr-2"></i><a href="#">laurenkarch</a>
+            </li>
+            <li class="">
+              <i class="fa fa-envelope mr-2"></i><a href="#">laurendkarch@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+       
+      </p>
+    </div>
   </footer>
-  <!-- Is the is the latest version of Leaflet? -->
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  <script src="data/denver-fire-stations.js"></script>
-  <script src="data/after-school-programs.js"></script>
-  <script src="data/denver-food-stores.js"></script>
-  <script>
-    var map = L.map('map', {
-      center: [39.7256, -104.9252],
-      zoom: 14,
-    });
 
-    var tiles = L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/dark_all/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-      subdomains: 'abcd',
-      maxZoom: 19
-    }).addTo(map);
-
-    // BEGIN WRITING YOUR SOLUTION CODE HERE
-    //stations layer
-    var fireLayer = L.geoJson(stations, {
-      pointToLayer: function (feature, latlng) {
-
-        return L.circleMarker(latlng, {
-          color: '#e43d30',
-          fillColor: '#e43d30',
-          weight: 1,
-          stroke: 0,
-          fillOpacity: 1,
-          radius: 10,
-        })
-      },
-      onEachFeature: function (feature, layer){
-        layer.bindTooltip(`Station Number: ${feature.properties.STATION_NU}`)}
-    })
-      .addTo(map)
-
-    //this is how I'm finding station numbers!
-    
-
-    //food layer
-    var foodLayer = L.geoJson(stores, {
-      pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-          color: '#0074A5',
-          fillColor: '#0074A5',
-          weight: 1,
-          stroke: 0,
-          fillOpacity: 1,
-          radius: 10,
-        })
-      },
-      onEachFeature: function (feature, layer){
-        layer.bindTooltip(`Name: ${feature.properties.STORE_NAME}`)}
-    })
-      .addTo(map)
-
-
-    //programs layer
-    var programLayer = L.geoJson(programs, {
-      pointToLayer: function (feature, latlng) {
-        return L.circleMarker(latlng, {
-          color: '#FCBF49',
-          fillColor: '#FCBF49',
-          weight: 1,
-          stroke: 0,
-          fillOpacity: 1,
-          radius: 10,
-        }).bindTooltip(`Name:${programs.features.properties}`);
-      },
-      onEachFeature: function (feature, layer){
-        layer.bindTooltip(`Name: ${feature.properties.ORGANIZATI}`)}
-    }).addTo(map)
-
-
-    // interactive radius layers
-    map.on('click', function (e) {
-      fireLayer.eachLayer(function (layer) {
-        var distance = e.latlng.distanceTo(layer.getLatLng()) / 1000;
-
-        if (distance > 1) {
-          layer.setStyle({
-            stroke: 0,
-            fillOpacity: .1,
-          });
-        } else {
-          layer.setStyle({
-            stroke: 0,
-            fillOpacity: 1,
-          });
-        } // end else
-      });
-    });
-    map.on('click', function (e) {
-      foodLayer.eachLayer(function (layer) {
-        var distance = e.latlng.distanceTo(layer.getLatLng()) / 1000;
-
-        if (distance > 1) {
-          layer.setStyle({
-            stroke: 0,
-            fillOpacity: .1,
-          });
-        } else {
-          layer.setStyle({
-            stroke: 0,
-            fillOpacity: 1,
-          });
-        } // end else
-      });
-    });
-    map.on('click', function (e) {
-      programLayer.eachLayer(function (layer) {
-        var distance = e.latlng.distanceTo(layer.getLatLng()) / 1000;
-
-        if (distance > 1) {
-          layer.setStyle({
-            stroke: 0,
-            fillOpacity: .1,
-          });
-        } else {
-          layer.setStyle({
-            stroke: 0,
-            fillOpacity: 1,
-          });
-        } // end else
-      });
-    });
-
-    //layer control
-    var sourcesLayers = {
-      "<b style='color:#e43d30'>Fire Stations</b>": fireLayer,
-      "<b style='color:#0074A5'>Food Stores</b>": foodLayer,
-      "<b style='color:#FCBF49'>After School Programs</b>": programLayer
-    }
-    L.control.layers(null, sourcesLayers, { collapsed: false }).addTo(map);
-
-
-
-  </script>
+  <!-- Bootstrap JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
