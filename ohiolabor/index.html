@@ -120,7 +120,7 @@
 	<!-- ui is outside of container-fluid and will be dynamically added to map -->
 	<div class="form-group mr-3 mt-3" id="dropdown-ui">
 		<select class="form-control bg-secondary text-white">
-			<option value="_HC01_VC04">Unemployed</option>
+			<option value="_HC01_VC09">Unemployed</option>
 			<option value="_HC01_VC67" selected>Private employees</option>
 			<option value="_HC01_VC68">Government employees</option>
 			<option value="_HC01_VC69">Self-employed</option>
@@ -150,7 +150,7 @@
 		// create Leaflet map and apply options
 		const map = L.map("map", options);
 
-		var attributeValue = "_HC01_VC04", //number of gov employees
+		var attributeValue = "_HC01_VC09", //number of not employed
 			normValue = "_HC01_VC03"; //all ohioans over 16
 
 		// request a basemap tile layer and add to the map
