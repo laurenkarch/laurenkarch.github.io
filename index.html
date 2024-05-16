@@ -1,220 +1,1453 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="nytapp-vi-interactive" xmlns:og="http://opengraphprotocol.org/schema/">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
 
-  <title>New Maps Plus Portfolio -- Lauren Karch</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Bootstrap CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script>
 
-  <!-- Font Awesome CSS from CDN -->
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
 
-  <!-- Google web font -->
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+    </script>
 
-  <!-- Custom styles for this template -->
-  <link href="css/styles.css" rel="stylesheet" />
+
+
 </head>
 
-<body id="page-top">
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="#page-top">Lauren Karch</a>
-      <div class="float-end">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-          </ul>
+<body>
+    <div id="app">
+        <div id="standalone-header">
+
+            </section>
+
+            </header>
         </div>
-      </div>
+
+
+
+
+
+
     </div>
-  </nav>
+    <main id="site-content">
+        <article id="interactive" class="interactive">
+            <header id="interactive-header" class="dish interactive-header css-1660cld ed0j4n71">
+                <h1 id="interactive-heading" class="interactive-heading css-1l8buln e1h9rw200" data-testid="headline">
+                    Some Text</h1>
 
-  <!-- Welcome Section -->
-  <header class="bg-secondary text-white">
-    <div class="container text-center">
-      <h1>New Maps Plus Portfolio</h1>
-      <p class="lead">
-        <a href="https://newmapsplus.as.uky.edu/">New Maps Plus</a> student based in Ohio. It's geography y'all!
-      </p>
+
+                </div>
+                </div>
+            </header>
+            <!--
+
+======================================================
+
+here we all are
+======================================================
+
+-->
+
+
+
+            <!-- critical path preloads -->
+
+
+            <!-- css generated from src/style.scss, text-balancer, and svelte component CSS -->
+
+            <link id="nytg-rendered-css"
+                href="M:\Lauren\GISStuff\DWJ\style.css"
+                rel="stylesheet">
+
+
+
+            <link
+                href="M:\Lauren\GISStuff\DWJ\components.css"
+                rel="stylesheet">
+
+
+
+
+
+            <!-- sprites, polyfills, imports -->
+            
+            <script>
+                if (!window.Promise || !window.fetch || !window.URL) {
+                    document.write('<script src="https://static01.nyt.com/newsgraphics/2022/08/12/trump-warrant/7a6e7468db33b8e9bd33013f887ae28b7818b421/polyfills.js"><\/script>');
+                }
+            </script>
+           
+            <script>
+                (function () {
+                    window.NYTG = window.NYTG || {};
+                    window.NYTG.ASSETS = "https://static01.nyt.com/newsgraphics/2022/08/12/trump-warrant/7a6e7468db33b8e9bd33013f887ae28b7818b421/".slice(0, -1);
+                    window.NYTG.BIG_ASSETS = "https://static01.nyt.com/newsgraphics/2022/08/12/trump-warrant/assets/".slice(0, -1);
+
+                    var supports_import = false;
+                    var can_use_import = location.hostname.indexOf('preview.n' + 'yt.net') == -1;
+                    var shimport_url = window.NYTG.ASSETS + "/shimport@1.0.1.js";
+                    var shimport_promise;
+
+                    try {
+                        new Function("if(0)import('')")();
+                        supports_import = true;
+                    } catch (e) { }
+
+                    if (!can_use_import || !supports_import) {
+                        shimport_promise = new Promise(function (fulfil, reject) {
+                            var s = document.createElement("script");
+                            s.src = shimport_url;
+                            s.onload = function () {
+                                fulfil(__shimport__);
+                            };
+                            s.onerror = reject;
+
+                            document.head.appendChild(s);
+                        });
+                    }
+
+                    window.NYTG.load = function (module) {
+                        var url = new URL(module, location.href).href;
+
+                        if (can_use_import && supports_import) {
+                            return eval("import('" + url + "')");
+                        } else {
+                            return shimport_promise.then(function (shimport) {
+                                return shimport.load(url);
+                            });
+                        }
+                    };
+
+                    // for --live
+                    window.NYTG.subscribers = {};
+                    window.NYTG.watch = function (url, cb) {
+                        if (!window.NYTG.subscribers[url]) window.NYTG.subscribers[url] = [];
+                        window.NYTG.subscribers[url].push(cb);
+                        window.NYTG.load(url).then(cb);
+                    };
+                }());
+            </script>
+
+
+
+
+            <!-- story top/cover and links -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div class="g-top-asset g-top " style="">
+
+                <!-- open g-cover-asset -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- data processed in process/freebird/process-graphic.js -->
+
+                <!-- asset wrapper : start -->
+                <!-- ASSET : START -->
+
+
+
+
+                <div role="figure" aria-label="graphic" class="g-asset g-graphic g-asset-margin"
+                    style="max-width: 300px">
+
+
+                    <!-- Intro elements -->
+
+
+
+                    <script type="text/javascript">
+                        (function (containerId, opts) {
+                            var nameSpace = opts.namespace || '';
+                            var containers = findContainers(containerId);
+                            containers.forEach(resize);
+
+                            function resize(container) {
+                                var onResize = throttle(update, 200);
+                                var waiting = !!window.IntersectionObserver;
+                                var observer;
+                                update();
+
+                                document.addEventListener('DOMContentLoaded', update);
+                                window.addEventListener('resize', onResize);
+
+                                // NYT Scoop-specific code
+                                if (opts.setup) {
+                                    opts.setup(container).on('cleanup', cleanup);
+                                }
+
+                                function cleanup() {
+                                    document.removeEventListener('DOMContentLoaded', update);
+                                    window.removeEventListener('resize', onResize);
+                                    if (observer) observer.disconnect();
+                                }
+
+                                function update() {
+                                    var artboards = selectChildren('.' + nameSpace + 'artboard[data-min-width]', container),
+                                        width = Math.round(container.getBoundingClientRect().width);
+
+                                    // Set artboard visibility based on container width
+                                    artboards.forEach(function (el) {
+                                        var minwidth = el.getAttribute('data-min-width'),
+                                            maxwidth = el.getAttribute('data-max-width');
+                                        if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                                            if (!waiting) {
+                                                selectChildren('.' + nameSpace + 'aiImg', el).forEach(updateImgSrc);
+                                            }
+                                            el.style.display = 'block';
+                                        } else {
+                                            el.style.display = 'none';
+                                        }
+                                    });
+
+                                    // Initialize lazy loading on first call
+                                    if (waiting && !observer) {
+                                        if (elementInView(container)) {
+                                            waiting = false;
+                                            update();
+                                        } else {
+                                            observer = new IntersectionObserver(onIntersectionChange, {});
+                                            observer.observe(container);
+                                        }
+                                    }
+                                }
+
+                                function onIntersectionChange(entries) {
+                                    // There may be multiple entries relating to the same container
+                                    // (captured at different times)
+                                    var isIntersecting = entries.reduce(function (memo, entry) {
+                                        return memo || entry.isIntersecting;
+                                    }, false);
+                                    if (isIntersecting) {
+                                        waiting = false;
+                                        // update: don't remove -- we need the observer to trigger an update
+                                        // when a hidden map becomes visible after user interaction
+                                        // (e.g. when an accordion menu or tab opens)
+                                        // observer.disconnect();
+                                        // observer = null;
+                                        update();
+                                    }
+                                }
+                            }
+
+                            function findContainers(id) {
+                                // support duplicate ids on the page
+                                return selectChildren('.ai2html-responsive', document).filter(function (el) {
+                                    if (el.getAttribute('id') != id) return false;
+                                    if (el.classList.contains('ai2html-resizer')) return false;
+                                    el.classList.add('ai2html-resizer');
+                                    return true;
+                                });
+                            }
+
+                            // Replace blank placeholder image with actual image
+                            function updateImgSrc(img) {
+                                var src = img.getAttribute('data-src');
+                                if (src && img.getAttribute('src') != src) {
+                                    img.setAttribute('src', src);
+                                }
+                            }
+
+                            function elementInView(el) {
+                                var bounds = el.getBoundingClientRect();
+                                return bounds.top < window.innerHeight && bounds.bottom > 0;
+                            }
+
+                            function selectChildren(selector, parent) {
+                                return parent ? Array.prototype.slice.call(parent.querySelectorAll(selector)) : [];
+                            }
+
+                            // based on underscore.js
+                            function throttle(func, wait) {
+                                var timeout = null, previous = 0;
+                                function run() {
+                                    previous = Date.now();
+                                    timeout = null;
+                                    func();
+                                }
+                                return function () {
+                                    var remaining = wait - (Date.now() - previous);
+                                    if (remaining <= 0 || remaining > wait) {
+                                        clearTimeout(timeout);
+                                        run();
+                                    } else if (!timeout) {
+                                        timeout = setTimeout(run, remaining);
+                                    }
+                                };
+                            }
+                        })("g-topper-box", { namespace: "g-", setup: window.setupInteractive || window.getComponent });
+                    </script>
+                    <!-- End ai2html - 2022-08-26 13:48 -->
+
+
+
+                    <!-- or print custom, pre-generated div with ID and classes -->
+
+
+                    <!-- or print missing file warning -->
+
+
+
+
+                    <!-- asset wrapper : end -->
+                    <!-- ASSET : END -->
+
+                </div>
+
+
+            </div>
+
+            </div>
+            <!-- If just "top" place header outside of div -->
+            <div class="g-header-container"></div>
+
+
+            <!-- LINKS -->
+
+
+
+            <!-- story-body -->
+
+
+            <!-- ASSET : START -->
+
+
+
+
+            <div role="figure" aria-label="svelte" class="g-asset g-svelte g-asset-width-full g-asset-margin" style="">
+
+
+                <!-- Intro elements -->
+
+
+
+
+
+
+
+
+
+
+
+                <div>
+
+                    <div class="g-svelte" data-component="1">
+                        <div class="wrap svelte-1mshdgf">
+                            <div class="pages-wrap svelte-1mshdgf">
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/1/output-1.png"
+                                            alt="Page 1 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 10.481770833333332%; top: 36.971830985915496%; width: 82.03125%; height: 14.386317907444662%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">1.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">1</span>
+                                                <!-- HTML_TAG_START -->The Justice Department filed this
+                                                introductory document to notify the court that it had
+                                                complied with the order to file the redacted
+                                                affidavit.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/2/output-2.png"
+                                            alt="Page 2 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 29.1015625%; top: 25.84648516096579%; width: 40.104166666666664%; height: 7.645875251509055%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">2.</div>
+                                        </div>
+                                        <div style="left: 8.3984375%; top: 81.98330608651912%; width: 82.03125%; height: 8.651911468812878%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">3.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">2</span>
+                                                <!-- HTML_TAG_START -->This is the start of the
+                                                affidavit an F.B.I. agent filed in support of the
+                                                application for a search warrant. It is highly unusual
+                                                for the government to make public any part of such a
+                                                document while the criminal investigation is continuing
+                                                and before any charges have been
+                                                filed.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">3</span>
+                                                <!-- HTML_TAG_START -->The F.B.I. explains the basic
+                                                purpose of the investigation.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/3/output-3.png"
+                                            alt="Page 3 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 6.575520833333333%; top: 32.93039486921529%; width: 82.94270833333333%; height: 42.354124748490946%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">4.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">4</span>
+                                                <!-- HTML_TAG_START -->The F.B.I. lays out what it had
+                                                already “established” before the search. Mr. Trump was
+                                                improperly keeping “national defense information” — an
+                                                apparent violation of the Espionage Act. And the F.B.I.
+                                                believed there was a good reason to believe that
+                                                additional documents were at Mar-a-Lago that would be
+                                                subject to that and two other laws cited in the
+                                                application: laws against concealing official records
+                                                and against concealing documents as part of an effort to
+                                                obstruct an official government agency effort. The scope
+                                                of what the government thinks Mr. Trump was obstructing
+                                                remains unclear, but at a minimum, it would seem to be
+                                                the attempt by the National Archives — later joined by
+                                                the Justice Department — to do its job by taking custody
+                                                of public records.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/4/output-4.png"
+                                            alt="Page 4 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/5/output-5.png"
+                                            alt="Page 5 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 6.8359375%; top: 57.459601358148895%; width: 86.19791666666666%; height: 33.601609657947684%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">5.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">5</span>
+                                                <!-- HTML_TAG_START -->A list of definitions for
+                                                abbreviations and acronyms that will appear later in the
+                                                affidavit foreshadows the extreme sensitivity of some of
+                                                the documents the F.B.I. had already found in the 15
+                                                boxes the National Archives was able to retrieve from
+                                                Mar-a-Lago earlier this year.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/6/output-6.png"
+                                            alt="Page 6 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/7/output-7.png"
+                                            alt="Page 7 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/8/output-8.png"
+                                            alt="Page 8 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 13.736979166666666%; top: 22.171309104627767%; width: 36.848958333333336%; height: 4.024144869215291%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">6.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">6</span>
+                                                <!-- HTML_TAG_START -->After explaining the laws that
+                                                were the basis for the search warrant, the affidavit
+                                                also mentions the Presidential Records Act. That was not
+                                                cited as part of the investigation, but it established
+                                                that presidential records are public property. Before
+                                                Congress’s post-Watergate enactment of the act,
+                                                presidents were understood to own their White House
+                                                records.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/9/output-9.png"
+                                            alt="Page 9 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 8.043032786885245%; top: 8.83808392715756%; width: 81.45491803278688%; height: 24.861441013460013%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">7.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">7</span>
+                                                <!-- HTML_TAG_START -->The National Archives made a
+                                                criminal referral to the Justice Department on Feb. 9,
+                                                2022, after it had finally been able to retrieve the
+                                                first 15 boxes of government documents from Mar-a-Lago.
+                                                The affidavit quotes the referral as indicating that the
+                                                boxes contained numerous “highly classified records”
+                                                that were haphazardly mixed in with other random
+                                                materials rather than being properly identified and
+                                                securely stored.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/10/output-10.png"
+                                            alt="Page 10 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/11/output-11.png"
+                                            alt="Page 11 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/12/output-12.png"
+                                            alt="Page 12 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/13/output-13.png"
+                                            alt="Page 13 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/14/output-14.png"
+                                            alt="Page 14 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/15/output-15.png"
+                                            alt="Page 15 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 8.528645833333332%; top: 26.44460513078471%; width: 80.859375%; height: 11.368209255533197%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">8.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">8</span>
+                                                <!-- HTML_TAG_START -->The affidavit lays out a timeline
+                                                showing how long the government had been trying to get
+                                                President Trump to return the publicly owned documents
+                                                he had taken with him to Mar-a-Lago. The National
+                                                Archives and Records Administration made its first such
+                                                request on May 6, 2021.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/16/output-16.png"
+                                            alt="Page 16 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/17/output-17.png"
+                                            alt="Page 17 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/18/output-18.png"
+                                            alt="Page 18 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 14.908854166666666%; top: 7.494969818913481%; width: 66.015625%; height: 4.929577464788731%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">9.</div>
+                                        </div>
+                                        <div style="left: 6.705729166666667%; top: 29.62776659959759%; width: 79.03645833333334%; height: 10.362173038229372%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">10.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">9</span>
+                                                <!-- HTML_TAG_START -->When the F.B.I. reviewed the
+                                                contents of the first 15 boxes in May, it found 184
+                                                documents marked as classified, including 25 marked as
+                                                top secret. The affidavit lists abbreviations or
+                                                acronyms on some of the documents indicating that they
+                                                were particularly sensitive. The agent said those types
+                                                of documents typically contain “national defense
+                                                information,” the sort of government secret that is
+                                                protected by the Espionage Act. <!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">10</span>
+                                                <!-- HTML_TAG_START -->“HCS” is a reference to documents
+                                                that could reveal clandestine human intelligence
+                                                sources. “FISA” is a reference to national-security
+                                                surveillance. “ORCON” is a reference to a special system
+                                                of controls in which the person who originally marked
+                                                something as classified has to be consulted before it is
+                                                shared with anyone beyond those who were pre-approved
+                                                for it. “NOFORN” means the information cannot be shared
+                                                with foreign governments. “SI” is a reference to a
+                                                system for so-called sensitive compartmented information
+                                                — an extra set of limits — that is destined to protect
+                                                technical and intelligence information related to
+                                                surveillance of foreign
+                                                communications.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/19/output-19.png"
+                                            alt="Page 19 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/20/output-20.png"
+                                            alt="Page 20 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 7.2265625%; top: 32.72918762575453%; width: 81.38020833333334%; height: 11.066398390342053%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">11.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">11</span>
+                                                <!-- HTML_TAG_START -->The discussion of early
+                                                interactions with Mr. Trump’s lawyer includes the fact
+                                                that he pointed out, in the abstract, that Mr. Trump had
+                                                the power to declassify information when he was
+                                                president. Notably, the lawyer did not then claim that
+                                                Mr. Trump had, in fact, issued a standing order to
+                                                declassify anything he took out of the Oval Office to
+                                                his residence, as Mr. Trump’s office claimed this month.
+                                                To date, no evidence has emerged suggesting that the
+                                                purported order existed.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/21/output-21.png"
+                                            alt="Page 21 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/22/output-22.png"
+                                            alt="Page 22 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/23/output-23.png"
+                                            alt="Page 23 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 8.138020833333332%; top: 73.05394869215291%; width: 81.38020833333333%; height: 18.309859154929576%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">12.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">12</span>
+                                                <!-- HTML_TAG_START -->The affidavit notes that
+                                                classification status does not matter for purposes of
+                                                the Espionage Act. That law criminalizes the
+                                                unauthorized retention of closely held defense-related
+                                                information that could aid a foreign adversary or harm
+                                                the United States. It was enacted before the
+                                                classification system existed and does not refer to
+                                                classification status.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/24/output-24.png"
+                                            alt="Page 24 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/25/output-25.png"
+                                            alt="Page 25 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/26/output-26.png"
+                                            alt="Page 26 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/27/output-27.png"
+                                            alt="Page 27 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/28/output-28.png"
+                                            alt="Page 28 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/29/output-29.png"
+                                            alt="Page 29 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/30/output-30.png"
+                                            alt="Page 30 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 5.6640625%; top: 25.0550176056338%; width: 83.33333333333334%; height: 29.376257545271635%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">13.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">13</span>
+                                                <!-- HTML_TAG_START -->The affidavit lists numerous
+                                                places where agents believed Mr. Trump was haphazardly
+                                                storing sensitive documents, including his residential
+                                                suite.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/31/output-31.png"
+                                            alt="Page 31 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/32/output-32.png"
+                                            alt="Page 32 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 8.138020833333332%; top: 37.611607142857146%; width: 84.50520833333333%; height: 14.587525150905428%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">14.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">14</span>
+                                                <!-- HTML_TAG_START -->The affidavit shows that the
+                                                F.B.I. had special procedures to separate any documents
+                                                that might be subject to attorney-client privilege and
+                                                keep them inaccessible to the main investigators. A
+                                                so-called privilege review team would handle such
+                                                materials before any decision about what to do with
+                                                them.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/33/output-33.png"
+                                            alt="Page 33 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/34/output-34.png"
+                                            alt="Page 34 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/35/output-35.png"
+                                            alt="Page 35 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 41.86197916666667%; top: 21.07645875251509%; width: 15.885416666666668%; height: 4.42655935613682%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">15.</div>
+                                        </div>
+                                        <div style="left: 10.7421875%; top: 65.44265593561369%; width: 78.25520833333334%; height: 6.841046277665996%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">16.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">15</span>
+                                                <!-- HTML_TAG_START -->The unsealed materials include a
+                                                May 25, 2022, letter to Jay Bratt, the head of the
+                                                Justice Department’s counterespionage unit, from Evan
+                                                Corcoran, a lawyer for Mr. Trump.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">16</span>
+                                                <!-- HTML_TAG_START -->The May letter from Mr. Trump’s
+                                                lawyer claims the documents were “unknowingly” packed
+                                                and taken to Mar-a-Lago, implying there was no criminal
+                                                intent to take government-owned documents. Many
+                                                questions remain about who supervised the packing of
+                                                materials Mr. Trump had taken to the residence of the
+                                                White House. But in any case, the three criminal laws
+                                                that are the basis of the investigation are focused not
+                                                on initial theft, but rather on actions like the
+                                                unauthorized retention, concealment or destruction of
+                                                documents. After the National Archives’ requests for the
+                                                documents — and then a Justice Department subpoena for
+                                                them — Mr. Trump was clearly on notice that the
+                                                government believed he had documents that did not belong
+                                                to him.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/36/output-36.png"
+                                            alt="Page 36 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 15.299479166666666%; top: 17.194573692152918%; width: 60.02604166666667%; height: 4.627766599597585%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">17.</div>
+                                        </div>
+                                        <div style="left: 9.440104166666668%; top: 37.21469441649899%; width: 83.07291666666667%; height: 31.589537223340038%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">18.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">17</span>
+                                                <!-- HTML_TAG_START -->Mr. Trump’s lawyer put forward
+                                                the abstract claim that a president can declassify
+                                                anything. As previously noted, it is significant that he
+                                                did not then claim that Mr. Trump had actually issued
+                                                any standing order to declassify whatever he happened to
+                                                take out of the Oval Office — a claim that Mr. Trump’s
+                                                office made this month after the F.B.I.
+                                                search.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">18</span>
+                                                <!-- HTML_TAG_START -->Mr. Trump’s lawyer also argued
+                                                that Mr. Trump is not subject to a law that criminalizes
+                                                the mishandling of classified information. Notably, that
+                                                is not one of the three laws that the search warrant
+                                                cites, suggesting that the Justice Department did not
+                                                need to rely on it and wanted to avoid a fight over
+                                                whether the classification status of the documents
+                                                mattered.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/37/output-37.png"
+                                            alt="Page 37 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/38/output-38.png"
+                                            alt="Page 38 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 35.22135416666667%; top: 8.977301307847082%; width: 25.651041666666668%; height: 7.947686116700201%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">19.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">19</span>
+                                                <!-- HTML_TAG_START -->In this section and the next, the
+                                                F.B.I. describes what parts of Mar-a-Lago it wants court
+                                                authority to search and what sorts of property it wants
+                                                permission to take if it is found
+                                                there.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/39/output-39.png"
+                                            alt="Page 39 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 47.59114583333333%; top: 20.035054074446677%; width: 28.645833333333332%; height: 3.92354124748491%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">20.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">20</span>
+                                                <!-- HTML_TAG_START -->An attachment listing what the
+                                                government wanted to seize cites the three criminal laws
+                                                the investigation is pursuing. They are the Espionage
+                                                Act, an obstruction law involving the concealment of
+                                                documents and a law against concealing or destroying
+                                                government records. Notably, the classification status
+                                                of the documents is not a factor for any of those
+                                                three.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/40/output-40.png"
+                                            alt="Page 40 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 12.3046875%; top: 28.92982897384306%; width: 76.171875%; height: 7.142857142857145%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">21.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">21</span>
+                                                <!-- HTML_TAG_START -->This document lays out the
+                                                Justice Department’s arguments for keeping the rest of
+                                                the affidavit censored from public
+                                                view.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/41/output-41.png"
+                                            alt="Page 41 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/42/output-42.png"
+                                            alt="Page 42 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 11.9140625%; top: 62.0692907444668%; width: 76.171875%; height: 13.883299798792759%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">22.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">22</span>
+                                                <!-- HTML_TAG_START -->As part of its argument for
+                                                keeping agent identities redacted in the version of the
+                                                affidavit that would be made public, the Justice
+                                                Department’s filing points to violent threats — and
+                                                worse — against the F.B.I. by some Trump supporters
+                                                following the search.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/43/output-43.png"
+                                            alt="Page 43 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 12.565104166666666%; top: 19.597271126760564%; width: 76.171875%; height: 13.682092555331993%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">23.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">23</span>
+                                                <!-- HTML_TAG_START -->The Justice Department has
+                                                continued to redact five categories of information from
+                                                the affidavit: information that could be used to
+                                                identify witnesses who might then be intimidated;
+                                                information about investigative techniques that could
+                                                provide a roadmap to obstructing the effort; grand jury
+                                                information; the identity of law enforcement agents
+                                                involved in the matter; and information that would
+                                                violate other people’s privacy.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/44/output-44.png"
+                                            alt="Page 44 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 13.216145833333334%; top: 29.498082243460765%; width: 74.21875%; height: 7.14285714285714%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">24.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">24</span>
+                                                <!-- HTML_TAG_START -->The affidavit makes clear the
+                                                government is working with multiple witnesses who are
+                                                cooperating with the investigation.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/45/output-45.png"
+                                            alt="Page 45 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/46/output-46.png"
+                                            alt="Page 46 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/47/output-47.png"
+                                            alt="Page 47 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/48/output-48.png"
+                                            alt="Page 48 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 12.565104166666666%; top: 75.295523138833%; width: 75.78125%; height: 10.96579476861167%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">25.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">25</span>
+                                                <!-- HTML_TAG_START -->The F.B.I. says it has a “well
+                                                founded” fear that Mr. Trump and his associates would
+                                                seek to obstruct the investigation more if they had
+                                                access to certain information that would provide a
+                                                “roadmap” for doing so.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/49/output-49.png"
+                                            alt="Page 49 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/50/output-50.png"
+                                            alt="Page 50 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/51/output-51.png"
+                                            alt="Page 51 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/52/output-52.png"
+                                            alt="Page 52 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/53/output-53.png"
+                                            alt="Page 53 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/54/output-54.png"
+                                            alt="Page 54 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                        <div style="left: 10.481770833333332%; top: 14.01691398390342%; width: 78.90625%; height: 78.06841046277665%"
+                                            class="highlight svelte-1mshdgf">
+                                            <div class="highlight-number svelte-1mshdgf">26.</div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="mobile-annotations svelte-1mshdgf">
+                                    <h3 class="svelte-1mshdgf">New York Times Analysis</h3>
+                                    <div class="annotation svelte-1mshdgf">
+                                        <div class="analysis svelte-1mshdgf">
+                                            <p class="svelte-1mshdgf"><span class="number svelte-1mshdgf">26</span>
+                                                <!-- HTML_TAG_START -->A two-page index of redactions
+                                                and their justifications keeps the specific reasons
+                                                censored, except for those involving the identities of
+                                                F.B.I. agents.<!-- HTML_TAG_END -->
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="page svelte-1mshdgf">
+                                    <div class="image-wrap svelte-1mshdgf"><img
+                                            src="https://int.nyt.com/data/documenttools/c7b685b6a87f7606/55/output-55.png"
+                                            alt="Page 55 of AFF PDF document." class="svelte-1mshdgf">
+                                    </div>
+                                    <div class="page-annotation-wrap svelte-1mshdgf">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="desktop-annotations svelte-1mshdgf">
+                                <div class="desktop-annotations-sticky svelte-1mshdgf"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <script>
+                        (function (target, url, props) {
+
+                            let component;
+
+                            // TODO capture props. requires compilation in dev mode
+                            NYTG.watch(url, (mod) => {
+                                const Component = mod.default;
+
+                                try {
+                                    if (component) component.$destroy();
+                                    console.log('destroyed component 1');
+                                } catch (err) {
+                                    console.error(err);
+                                    target.innerHTML = '';
+                                }
+
+                                component = new Component({
+                                    target,
+                                    hydrate: !component,
+                                    props
+                                });
+                            });
+                        }(
+                            document.querySelector('[data-component="1"]'),
+                            NYTG.ASSETS + '/build/js/doc.js',
+                            { "amp": false }
+                        ));
+                    </script>
+                    <!-- ASSET : END -->
+
+                </div>
+
+
+            </div>
+
+            </div>
+            <!-- /end story-body -->
+
+            <!-- methodology and related content sections -->
+
+
+
+            <!-- special includes for video features, opinion section -->
+
+
+
+            <script>
+
+            </script>
+            <!-- Pipeline: 2022-08-12-trump-warrant | August 27, 2022, 09:49AM | 7a6e7468db33b8e9bd33013f887ae28b7818b421 -->
+            </div>
+
+        </article>
+    </main>
+
+    </ul>
+    </nav>
+    </footer>
     </div>
-  </header>
-
-  <!-- Projects Section -->
-  <section id="projects" class="bg-light">
-         <div class="container">
-      <div class="row">
-          <div class="col-lg-12 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="https://laurenkarch.github.io/local-rcv-votes/"><img class="card-img-top" src="images/RCV-thumb.png" alt="Local RCV Ballot Initiatives" /></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a target="_blank" href="https://laurenkarch.github.io/local-rcv-votes/">Local RCV Ballot Initiatives</a>
-              </h4>
-              <p class="card-text">
-                Map shows local ballot measures pertaining to electoral systems in municipalities across the United States from 2018 through 2022, specifically ballot measures with a yes-no vote on ranked choice voting (RCV) or similar electoral systems. Maps created in Leaflet, using OpenStreetMap basemap and MiniCharts plugin.
-              </p>
-            </div>
-          </div>
-        </div>
-         
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href=""https://laurenkarch.github.io/mapping-police-pursuits/Images/poster8000.png"><img class="card-img-top" src="images/police.jpg" alt="Police Pursuits Thumbnail" /></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a target="_blank" href="https://laurenkarch.github.io/mapping-police-pursuits/Images/poster8000.png">Mapping
-                  Police Pursuits</a>
-              </h4>
-              <p class="card-text">
-                Maps traffic fatalities involving police pursuits, using NHTSA data, and suggests mapping as a tool to
-                further study pursuit-related fatalities.
-                Map created QGIS 3.22.5. The basemap uses OpenStreetMap and Census TIGER data. Poster created in Adobe
-                Illustrator.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="powermap/index.html"><img class="card-img-top" src="images/powerthumb.jpg" alt="Power Plants Thumbnail" /></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a target="_blank" href="powermap/index.html">Power Plant Sources</a>
-              </h4>
-              <p class="card-text">
-                Interactive Leaflet map showing power source for power plants across the United States.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="https://cityoftroy.github.io/TMS_Map/"><img class="card-img-top" src="images/tms.png" alt="Businesses Thumbnail" /></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a target="_blank" href="https://cityoftroy.github.io/TMS_Map/">Main Street Businesses</a>
-              </h4>
-              <p class="card-text">
-                Created for local Ohio Main Street affiliate for 2023 Shop Local campaign.
-                Map created using Leaflet. Database created in conjunction with local volunteers.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="images/wind_turbines_8000.png"><img class="card-img-top" src="images/turbinethumb.png" alt="Wind Turbines Thumbnail" /></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a target="_blank" href="images/wind_turbines_8000.png">Concentration of Wind Turbines</a>
-              </h4>
-              <p class="card-text">
-               Static hexbinned map showing concentration of wind turbines in the United States. Data from <a href="https://eerscmap.usgs.gov/uswtdb/">United States Wind Turbine Database.</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="https://troy.maps.arcgis.com/apps/dashboards/baa916a7189247909a864ecd0df1b706"><img class="card-img-top" src="images/strawberry.jpg" alt="Road Closure Thumbnail" /></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a target="_blank" href="https://troy.maps.arcgis.com/apps/dashboards/baa916a7189247909a864ecd0df1b706">Troy Ohio Road Closures (Contributor)</a>
-              </h4>
-              <p class="card-text">
-                Rudimentary ArcGIS StoryMap allowing collaboration across City departments, and accessible to residents.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="https://laurenkarch.github.io/ohiolabor/index"><img class="card-img-top" src="/ohiolabor/ohiolabor.jpg" alt="Ohio thumbnail" /></a>
-            <div class="card-body">
-              <h4 class="card-title">
-                <a target="_blank" href="https://laurenkarch.github.io/ohiolabor/index">Ohio Employment Types</a>
-              </h4>
-              <p class="card-text">
-                Leaflet Map showing employment types by county.
-              </p>
-            </div>
-          </div>
-        </div>
-
-       
-        </div>
-      </div>
     </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 mx-auto">
-          <h2>Hi guys!</h2>
-          <div class="my-5 clearfix">
-            <div class="float-md-left mb-5 mr-md-4">
-              <img class="rounded-circle img-fluid" src="https://images.squarespace-cdn.com/content/v1/62c7385c3abb955e3bc5f9e3/cf099411-809f-4ccf-ae11-760eddc32283/1647396786927.jpg" alt="" />
-            </div>
-            <p class="lead">
-              Hi, Lauren here! I'm finishing MAPS 673 this semester--hit me up with collaboration ideas, cat photos, advice or requests.
-            </p>
-            <p class="lead">
-              Check out my site <a href="www.laurenkarch.com">here.</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        
-        <div class="col-md-6">
-          <h3>Get in touch!</h3>
-          <ul class="list-unstyled">
-            <li class="">
-              <i class="fa fa-twitter mr-2"></i><a href="#">@laurenkarch</a>
-            </li>
-            <li class="mr-2">
-              <i class="fa fa-github mr-2"></i><a href="#">laurenkarch</a>
-            </li>
-            <li class="">
-              <i class="fa fa-envelope mr-2"></i><a href="#">laurendkarch@gmail.com</a>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">
-       
-      </p>
     </div>
-  </footer>
+    </div>
 
-  <!-- Bootstrap JavaScript -->
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        setTimeout(function () {
+            var script = document.createElement('script');
+            script.async = true;
+            script.src = '/vi-assets/static-assets/end-mark-6f0172a017e635e07fbcdf5f16886104.js';
+            document.head.appendChild(script);
+        }, 0);
+    </script>
+
+    <script>!function () { try { var e = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : {}, n = (new Error).stack; n && (e._sentryDebugIds = e._sentryDebugIds || {}, e._sentryDebugIds[n] = "ea13d2d5-29c8-4856-842b-66abff265ed4", e._sentryDebugIdIdentifier = "sentry-dbid-ea13d2d5-29c8-4856-842b-66abff265ed4") } catch (e) { } }(); var _global = "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : {}; _global.SENTRY_RELEASE = { id: "3662388f252abeeeb8bccb8ce8544d6af1d02a87" }, function (e) { function n(n) { for (var r, a, u = n[0], l = n[1], d = n[2], s = 0, c = []; s < u.length; s++)a = u[s], Object.prototype.hasOwnProperty.call(o, a) && o[a] && c.push(o[a][0]), o[a] = 0; for (r in l) Object.prototype.hasOwnProperty.call(l, r) && (e[r] = l[r]); for (i && i(n); c.length;)c.shift()(); return f.push.apply(f, d || []), t() } function t() { for (var e, n = 0; n < f.length; n++) { for (var t = f[n], r = !0, u = 1; u < t.length; u++) { var l = t[u]; 0 !== o[l] && (r = !1) } r && (f.splice(n--, 1), e = a(a.s = t[0])) } return e } var r = {}, o = { 140: 0 }, f = []; function a(n) { if (r[n]) return r[n].exports; var t = r[n] = { i: n, l: !1, exports: {} }; return e[n].call(t.exports, t, t.exports, a), t.l = !0, t.exports } a.m = e, a.c = r, a.d = function (e, n, t) { a.o(e, n) || Object.defineProperty(e, n, { enumerable: !0, get: t }) }, a.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, a.t = function (e, n) { if (1 & n && (e = a(e)), 8 & n) return e; if (4 & n && "object" == typeof e && e && e.__esModule) return e; var t = Object.create(null); if (a.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: e }), 2 & n && "string" != typeof e) for (var r in e) a.d(t, r, function (n) { return e[n] }.bind(null, r)); return t }, a.n = function (e) { var n = e && e.__esModule ? function () { return e.default } : function () { return e }; return a.d(n, "a", n), n }, a.o = function (e, n) { return Object.prototype.hasOwnProperty.call(e, n) }, a.p = "/vi-assets/static-assets/"; var u = window.webpackJsonp = window.webpackJsonp || [], l = u.push.bind(u); u.push = n, u = u.slice(); for (var d = 0; d < u.length; d++)n(u[d]); var i = l; t() }([]);
+        //# sourceMappingURL=runtime~adslot-1518be5d943221290753.js.map</script>
+
+    <script id="adslot-config">
+        (function () { var _f = function () { const o = "1_block"; function n(o) { return window && window.NYTD && window.NYTD.Abra ? window.NYTD.Abra(o) : "" } window.adClientUtils = { hasActiveToggle: function (r) { return n(r) !== o }, getAbraVar: n, reportExposure: function (o) { window && window.NYTD && window.NYTD.Abra && window.NYTD.Abra.reportExposure && window.NYTD.Abra.reportExposure(o) } } };; _f.apply(null, []); })();
+        var AdSlot4 = function () { "use strict"; function a() { return window.AdSlot4 = window.AdSlot4 || {}, window.AdSlot4.cmd = window.AdSlot4.cmd || [], window.AdSlot4 } function t(e) { return -1 !== document.cookie.indexOf(e) } function n(e) { var t = { PURR_AcceptableTrackers: 0, PURR_AdConfiguration: 5, PURR_DataSaleOptOutUI: 2, PURR_DataProcessingConsentUI: 3, PURR_AcceptableTrackers_v2: 4, PURR_AdConfiguration_v2: 5, PURR_DataProcessingPreferenceUI: 6, PURR_DataSaleOptOutUI_v2: 7, PURR_CaliforniaNoticesUI: 8, PURR_EmailMarketingOptInUI: 9, PURR_DeleteIPAddress: 10, PURR_AdConfiguration_v3: 11, PURR_LimitSensitivePI: 12, PURR_EmailMarketingOptInUI_v2: 13, PURR_AdConfiguration_v4: 14 }, n = function (e) { e = "; ".concat(document.cookie).split("; ".concat(e, "=")); return 2 === e.length ? e.pop().split(";").shift() : null }(e), i = {}; return Object.keys(t).forEach(function (e) { i[e] = function (e, t) { t = new RegExp("^.{".concat(t, "}(.)")), t = e.match(t); return (null == t ? void 0 : t[1]) || "" }(n, t[e]) }), r.forEach(function (t) { Object.keys(t.valueMapping).forEach(function (e) { t.valueMapping[e] === i[t.name] && (i[t.name] = e) }) }), i } function i() { var e; try { return function () { if ("undefined" == typeof window) return !1; var e = window.navigator.userAgent || window.navigator.vendor, t = -1 !== e.indexOf("nyt_android"), n = -1 !== e.indexOf("nytios"), i = -1 !== e.indexOf("nyt_xwords_ios"), e = -1 !== e.indexOf("Crosswords"); return t || n || i || e }() ? null !== (e = null === window || void 0 === window ? void 0 : window.config) && void 0 !== e && e.PurrDirectives ? window.config.PurrDirectives : t("override-purr") ? n("override-purr") : o({}, d) : t("nyt-purr") ? n("nyt-purr") : o({}, d) } catch (e) { return console.warn("can’t get directives from cookie or config", e), o({}, d) } } function e() { var e = {}; return "undefined" != typeof window && window.document && window.document.createElement && (e = i().PURR_AdConfiguration_v3 || i().PURR_AdConfiguration_v2), e } var o = function () { return (o = Object.assign || function (e) { for (var t, n = 1, i = arguments.length; n < i; n++)for (var o in t = arguments[n]) Object.prototype.hasOwnProperty.call(t, o) && (e[o] = t[o]); return e }).apply(this, arguments) }, r = [{ name: "PURR_AcceptableTrackers", valueMapping: { controllers: "c", processors: "p" } }, { name: "PURR_AdConfiguration", valueMapping: { full: "f", npa: "n", "adluce-socrates": "s" } }, { name: "PURR_DataSaleOptOutUI", valueMapping: { hide: "h", show: "s" } }, { name: "PURR_DataProcessingConsentUI", valueMapping: { hide: "h", show: "s" } }, { name: "PURR_AcceptableTrackers_v2", valueMapping: { controllers: "c", processors: "p", essentials: "e" } }, { name: "PURR_AdConfiguration_v2", valueMapping: { full: "f", rdp: "r", npa: "n", adluce: "a", "adluce-socrates": "s" } }, { name: "PURR_DataProcessingPreferenceUI", valueMapping: { hide: "h", "allow-opt-out": "o", "allow-opt-in": "i", "allow-opt-in-or-out": "a" } }, { name: "PURR_DataSaleOptOutUI_v2", valueMapping: { hide: "h", show: "s", "show-opted-out": "o" } }, { name: "PURR_CaliforniaNoticesUI", valueMapping: { hide: "h", show: "s" } }, { name: "PURR_EmailMarketingOptInUI", valueMapping: { checked: "c", unchecked: "u" } }, { name: "PURR_DeleteIPAddress", valueMapping: { delete: "d", keep: "k" } }, { name: "PURR_AdConfiguration_v3", valueMapping: { full: "f", rdp: "r", npa: "n", ltd: "l", "adluce-socrates": "s" } }, { name: "PURR_LimitSensitivePI", valueMapping: { hide: "h", show: "s" } }, { name: "PURR_EmailMarketingOptInUI_v2", valueMapping: { checked: "c", unchecked: "u", "do-not-display": "d" } }, { name: "PURR_AdConfiguration_v4", valueMapping: { full: "f", rdp: "r", npa: "n", ltd: "l", "adluce-socrates": "s", "no-ads": "a" } }], d = { PURR_DataSaleOptOutUI: "hide", PURR_DataSaleOptOutUI_v2: "hide", PURR_CaliforniaNoticesUI: "hide", PURR_DataProcessingConsentUI: "hide", PURR_DataProcessingPreferenceUI: "hide", PURR_AcceptableTrackers_v2: "controllers", PURR_AcceptableTrackers: "controllers", PURR_AdConfiguration_v2: "full", PURR_AdConfiguration: "full", PURR_EmailMarketingOptInUI: "unchecked", PURR_DeleteIPAddress: "delete", PURR_AdConfiguration_v3: "full", PURR_LimitSensitivePI: "hide", PURR_EmailMarketingOptInUI_v2: "unchecked", PURR_AdConfiguration_v4: "full" }; function u() { return "full" === e() } function l(e, t, n) { var i = document.getElementsByTagName("head")[0], o = document.createElement("script"); t && (o.onload = t), n && (o.onerror = n), o.src = e, o.async = !0, i.appendChild(o) } function c() { a().cmd.push(function () { var e = "".concat("GeoEdge", " failed to load"); a().events.publish({ name: v, value: { message: e } }) }) } function p() { return !window.grumi && (l("//rumcdn.geoedge.be/b3960cc6-bfd2-4adc-910c-6e917e8a6a0e/grumi-ip.js", null, c), window.grumi = { key: "b3960cc6-bfd2-4adc-910c-6e917e8a6a0e", cfg: { advs: g } }) } function m() { var e; window.apstag || (e = "".concat(b, " not loading properly"), console.warn(e)) } function f() { a().cmd.push(function () { var e = "".concat(b, " failed to load"); a().events.publish({ name: y, value: { type: b, message: e } }) }) } function s() { var e = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : window; return e.googletag = e.googletag || {}, e.googletag.cmd = e.googletag.cmd || [], e.googletag } function w(e) { return !(!window.apstag || !window.apstag.fetchBids) && (window.apstag.fetchBids({ slots: e }, void (window.apstag && window.apstag.setDisplayBids && s().cmd.push(window.apstag.setDisplayBids()))), !0) } var g = { 32074718: !0, 4792640386: !0, 21966278: !0, 4558311760: !0, 4552626466: !0, 4400775978: !0, 39318518: !0, 4874174581: !0, 33597638: !0, 38636678: !0, 38637278: !0, 33597998: !0, 33613118: !0, 30252878: !0, 33597758: !0 }, v = "script_loader_error", b = "A9", _ = [[320, 50], [300, 250], [728, 90], [970, 90], [970, 250]], h = "large", R = "medium", P = "small", y = "BidderError", U = "AdEmpty", O = "AdBlockOn", A = "AdDefined", k = "AdRefreshed"; function I(e, t, n) { return t in e ? Object.defineProperty(e, t, { value: n, enumerable: !0, configurable: !0, writable: !0 }) : e[t] = n, e } function x(t, e) { var n, i = Object.keys(t); return Object.getOwnPropertySymbols && (n = Object.getOwnPropertySymbols(t), e && (n = n.filter(function (e) { return Object.getOwnPropertyDescriptor(t, e).enumerable })), i.push.apply(i, n)), i } function D(t) { for (var e = 1; e < arguments.length; e++) { var n = null != arguments[e] ? arguments[e] : {}; e % 2 ? x(Object(n), !0).forEach(function (e) { I(t, e, n[e]) }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(t, Object.getOwnPropertyDescriptors(n)) : x(Object(n)).forEach(function (e) { Object.defineProperty(t, e, Object.getOwnPropertyDescriptor(n, e)) }) } return t } function j(e) { return Y[e] || Y.default } function C(e, t) { var n; return (e = [].concat((n = t, [].concat(e).slice().sort(function (e, t) { return t[0] - e[0] }).find(function (e) { return !Number.isNaN(e[0]) && e[0] < n }))).pop()) && e.length ? e : null } function S(o, a) { return function () { var e = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : {}, t = e.sizes, n = void 0 === t ? [] : t, t = e.truePosition, e = e.id; if (a && j(o).map(function (e) { return e.id }).includes(e)) return !1; var i, n = C(n, window.innerWidth), n = (i = n, Array.isArray(i) ? _.filter(function (t) { return i.some(function (e) { return e[0] === t[0] && e[1] === t[1] }) }) : (console.warn("filterSizes() did not receive an array"), [])); if (0 < n.length) { n = [{ slotID: t || e, slotName: "".concat(t || e, "_").concat(o, "_web"), sizes: n }]; return w(n), !0 } return !1 } } function M(n, i) { return j(i).map(function (e) { var t = e.id, e = e.sizes; return { slotID: t, slotName: "".concat(t, "_").concat(i, "_web"), sizes: (e = e)[n] || e[P] } }) } function z(t, n) { a().cmd.push(function () { var e; t && w(M(740 < (e = window.innerWidth) ? h : 600 < e ? R : P, n)), a().events.subscribe({ name: A, scope: "all", callback: S(n, t) }) }) } function T(e, t, n) { (function () { var e, n = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : "apstag", i = 1 < arguments.length && void 0 !== arguments[1] ? arguments[1] : window; return i[n] || (e = function (e, t) { return i[n]._Q.push([e, t]) }, i[n] = { _Q: [], init: function () { e("i", arguments) }, fetchBids: function () { e("f", arguments) }, setDisplayBids: function () { }, targetingKeys: function () { return [] } }), i[n] })("apstag", window).init({ pubID: "3030", deals: !0, adServer: "googletag", params: { si_section: t } }), z(e, n) } function E(e, n) { var t; switch (Object.values(W).reduce(function (e, t) { return n.includes(t) ? t : e }, n)) { case K: t = e.top; break; case J: t = e.mid; break; case X: t = e.bottom; break; default: t = e.default }return t } function B(e) { var t; switch (e) { case "livebl": t = "hp"; break; case "coll": t = "sf"; break; default: t = e }return t in F || (t = "default"), t } var N = (I(me = {}, h, [[728, 90], [970, 90], [970, 250]]), I(me, R, [[728, 90], [300, 250]]), I(me, P, [[300, 250]]), me), Y = { art: [{ id: "top", sizes: N }, { id: "mobile_top", sizes: I({}, P, [[320, 50]]) }], hp: [{ id: "dfp-ad-top", sizes: N }], games: [{ id: "ad-top", sizes: N }, { id: "intsl", sizes: N }], default: [{ id: "top", sizes: N }] }, F = { art: { id: ["mobile_top", "top", "story-ad-1", "story-ad-2", "story-ad-3", "story-ad-4", "story-ad-5", "story-ad-6", "bottom"], pos: ["mobile_top", "top", "mid1", "mid2", "mid3", "mid4", "mid5", "mid6", "bottom"] }, int: { id: ["top", "mid1", "mid2", "bottom"], pos: ["top", "mid1", "mid2", "bottom"] }, hp: { id: ["dfp-ad-top", "dfp-ad-mid1", "dfp-ad-mid2", "dfp-ad-mid3", "dfp-ad-bottom"], pos: ["top", "mid1", "mid2", "mid3", "bottom"] }, ss: { id: ["right-0", "right-1", "right-2", "right-3"], pos: ["mid1", "mid1", "mid1", "mid1"], size: { small: [[300, 250]], medium: [[300, 250]], large: [[300, 250]] } }, sf: { id: ["top", "mid1", "mid2"], pos: ["top", "mid1", "mid2"], size: { small: [[300, 250]], medium: [[300, 250]], large: [[300, 250]] } }, games: { id: ["ad-top", "ad-mid1", "ad-bottom"], pos: ["top", "mid1", "bottom"] }, default: { id: ["top", "mid1", "mid2"], pos: ["top", "mid1", "mid2"], size: { small: [[300, 250]], medium: [[728, 90]], large: [[728, 90], [970, 90], [970, 250]] } } }, V = { top: 2088370, mid: 2088372, bottom: 2088374, default: 2088376 }, G = { top: 544112060, mid: 544112063, bottom: 544112062, default: 544112065 }, L = { top: 684296214, mid: 190706820, bottom: 932254072, default: 153468583 }, q = { top: "NYTimes_728x90_970_top_PB", mid: "NYTimes_728x90_970_mid_PB", bottom: "NYTimes_728x90_970_bot_PB", default: "NYTimes_728x90_970_mid_PB" }, H = { top: "nytimes_top", mid: "nytimes_mid", bottom: "nytimes_bottom", default: "nytimes_catchall" }, Q = { top: "995821", mid: "995822", bottom: "995823", default: "995824" }, W = { TOP: "top", MID: "mid", BOTTOM: "bottom" }, Z = { buckets: [{ max: 3, increment: .05 }, { max: 10, increment: .01 }, { max: 20, increment: .1 }, { max: 50, increment: .5 }, { max: 101, increment: 1 }] }, K = W.TOP, J = W.MID, X = W.BOTTOM; function $(o, e, t) { var t = 2 < arguments.length && void 0 !== t ? t : {}, a = t.sizeConfig, r = t.activeBidders, t = t.positionsToFilter, d = void 0 === t ? [] : t, c = B(e), s = F[c].size ? c : "default"; return F[c].pos.reduce(function (e, t, n) { if (d.includes(t)) return e; var n = F[c].id[n], i = D(D({}, F[s].size), null == a || null === (i = a[n]) || void 0 === i ? void 0 : i.size), t = { code: n, mediaTypes: { banner: { sizeConfig: [{ minViewPort: [970, 0], sizes: i.large }, { minViewPort: [728, 0], sizes: i.medium }, { minViewPort: [0, 0], sizes: i.small }] } }, bids: function (e, t) { var n = 2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : [], e = [{ bidder: "appnexus", params: { member: 3661, invCode: "nyt_".concat(e, "_").concat(t) } }, { bidder: "medianet", params: { cid: "8CU4WQK98", crid: E(L, t) } }, { bidder: "rubicon", params: { accountId: 12330, siteId: 378266, inventory: { invCode: ["nyt_".concat(e, "_").concat(t)] }, zoneId: E(V, t), position: "top" === t ? "atf" : "btf" } }, { bidder: "openx", params: { unit: E(G, t), delDomain: "nytimes-d.openx.net", customParams: { invCode: "nyt_".concat(e, "_").concat(t) } } }, { bidder: "triplelift", params: { inventoryCode: E(q, t) } }, { bidder: "pubmatic", params: { publisherId: "163427", adSlot: E(H, t) } }, { bidder: "ix", params: { siteId: E(Q, t) } }], t = e.filter(function (e) { return !["pubmatic", "ix"].includes(e.bidder) }); return n.length ? e.filter(function (e) { return n.includes(e.bidder) }) : t }(o, t, r) }; return e.push(t), e }, []) } function ee(n) { window.pbjs = window.pbjs || {}, window.pbjs.initAdserverSet || (window.pbjs.initAdserverSet = !0, a().cmd.push(function () { a().events.subscribe({ name: A, scope: "all", callback: function (t) { s().cmd.push(function () { var e; (e = B(e = n), F[e].id).includes(t.id) && window.pbjs.setTargetingForGPTAsync([t.id]) }) } }) })) } function te(n, e, t, i) { function o(e, t) { window.pbjs.initAdserverSet = !1, n.requestBids({ bidsBackHandler: function () { ee(e) }, timeout: t }) } a().cmd.push(function () { n.que.push(function () { n.addAdUnits($(e, t, i)), o(t, 1e4), a().events.subscribe({ name: k, scope: "all", callback: function () { o(t, 800) } }) }) }) } function ne(e, t) { var n = 2 < arguments.length && void 0 !== arguments[2] ? arguments[2] : {}, i = function () { var e = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : window; return e.pbjs = e.pbjs || {}, e.pbjs.que = e.pbjs.que || [], e.pbjs }(), o = n.priceGranularity; i.setConfig({ priceGranularity: o || Z }), te(i, e, t, n) } function ie() { a().cmd.push(function () { var e = "".concat("PreBid", " failed to load"); a().events.publish({ name: y, value: { type: "PreBid", message: e } }) }) } function oe(e, t, n) { return !window.pbjs && (l("https://www.nytimes.com/ads/prebid8.25.0.js", (i = e, o = t, a = n, function () { window.pbjs || console.log("prebid did not load"), ne(i, o, a) }), ie), !0); var i, o, a } function ae() { try { var e = ((t = document.createElement("div")).innerHTML = "&nbsp;", t.className = "ad adsbox pub_300x250 pub_300x250m pub_728x90 text-ad textAd text_ad ad-server", t.style = "width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;", document.body.prepend(t), document.getElementsByClassName("ad adsbox")[0]), t = !(!(t = e) || 0 !== t.offsetHeight && 0 !== t.clientHeight) || function (e) { if (void 0 !== window.getComputedStyle) { e = window.getComputedStyle(e, null); if (e && ("none" === e.getPropertyValue("display") || "hidden" === e.getPropertyValue("visibility"))) return !0 } return !1 }(e); return e = e, document.body.removeChild(e), t } catch (e) { console.error("ad class check failed", e) } var t; return !1 } function re() { return !(window && window.AdSlot && window.AdSlot.AdSlotReady) || (!(window && window.googletag && window.googletag.apiReady) || ae()) } function de() { var e = window && window.nyt_et && window.nyt_et.get_host && window.nyt_et.get_host(); return e ? fetch("".concat(e, "/.status"), { credentials: "include", headers: { accept: "*/*", "content-type": "text/plain;charset=UTF-8" }, mode: "no-cors" }).then(function () { return { success: !0 } }).catch(function (e) { return console.error("et track blocked", e), { success: !1 } }) : Promise.resolve({ success: !1 }) } function ce(e, t, n) { var i = (o = "nyt-a", (document && document.cookie && document.cookie.match && (o = document.cookie.match(new RegExp("".concat(o, "=([^;]+)")))) ? o[1] : "") || null), o = !!(window && window.matchMedia && window.matchMedia("(max-width: 739px)").matches); return "".concat("https://a-reporting.nytimes.com/report.jpg", "?mobile=").concat(o, "&block=").concat(n, "&aid=").concat(i, "&pvid=").concat(e, "&et=").concat(t) } function se(e, t, n) { return !!(window && window.NYTD && window.NYTD.Abra && "1_network_detection" === window.NYTD.Abra("DFP_blockDetect_0221")) && ((new Image).src = ce(e, t, n), !0) } function ue(e, t) { t && a().cmd.push(function () { var e = a(); e.events && e.events.publish({ name: U, value: { type: O } }) }); var n = !1; return de().then(function () { n = (0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : { success: !1 }).success }).catch(function () { }).finally(function () { se(e, n, t) }) } function le(e) { var t; window.addEventListener("load", (t = e, function () { ue(t, re()) })) } var pe, me = function () { var e = 0 < arguments.length && void 0 !== arguments[0] ? arguments[0] : {}; if (pe) return !1; var t = e.loadAmazon, n = void 0 === t || t, i = e.loadPrebid, o = void 0 === i || i, a = e.setFastFetch, r = void 0 !== a && a, d = e.loadGeoEdge, c = void 0 === d || d, s = e.section, t = void 0 === s ? "none" : s, i = e.pageViewId, a = void 0 === i ? "" : i, d = e.pageType, s = void 0 === d ? "" : d, i = e.prebidOverrides, d = void 0 === i ? {} : i; return e = document.referrer || "", !(i = /([a-zA-Z0-9_\-.]+)(@|%40)([a-zA-Z0-9_\-.]+).([a-zA-Z]{2,5})/).test(e) && !i.test(window.location.href) && (u() && (s = new RegExp(/art/).test(s) ? "art" : s, c && p(), n && (c = r, n = t, r = s, window.apstag || (l("//c.amazon-adsystem.com/aax2/apstag.js", m, f), T(c, n, r))), o && oe(t, s, d)), le(a), pe = !0) }; return (N = a()).loadScripts = N.loadScripts || me, window.AdSlot4 = N }();
+        (function () { var _f = function (e = {}) { const i = window && window.AdSlot4; function o() { const e = window.matchMedia("(max-width: 739px)"); return e && e.matches } try { const { adToggleMap: t, pageType: n, prebidOverrides: d, section: a, isSectionHbEligible: r, setFastFetch: s, headerBidding: c = {} } = e, { useAmazon: w, usePrebid: l } = c, p = Object.keys(t).reduce((e, i) => { const o = t[i] || ""; return e[i] = function (e) { return !!(window && window.adClientUtils && window.adClientUtils.hasActiveToggle) && window.adClientUtils.hasActiveToggle(e) }(o), e }, {}), { amazon: g, geoedge: u } = p, T = d && d.positionsToFilter || [], b = o() ? T.concat(["top"]) : T, h = ["appnexus", "medianet", "rubicon", "openx", "triplelift", "ix", "pubmatic"]; "function" == typeof i.loadScripts && i.loadScripts({ loadAmazon: w && g && r, loadPrebid: l && r, setFastFetch: s && !o(), section: a, prebidOverrides: { ...d, positionsToFilter: b, activeBidders: h }, pageType: n, pageViewId: window && window.NYTD && window.NYTD.PageViewId && window.NYTD.PageViewId.current ? window.NYTD.PageViewId.current : "", loadGeoEdge: u }) } catch (e) { console.error(e) } };; _f.apply(null, [{ "adToggleMap": { "amazon": "amazon_interactive_toggle", "medianet": "medianet_interactive_toggle", "dfp": "dfp_interactive_toggle", "geoedge": "geoedge_toggle" }, "pageType": "int", "section": "us", "isSectionHbEligible": true, "headerBidding": { "useAmazon": true, "usePrebid": true } }]); })();
+    </script>
+
+
+
+    <script defer src="/vi-assets/static-assets/interactive-9a864d92fae7f28255d5.js"></script>
+    <script>(function () { var _f = function () { try { var e = ["first-paint", "first-contentful-paint", "userBtnRender", "appRenderTime"]; new window.PerformanceObserver(function (r) { for (var n = r.getEntries(), a = 0; a < n.length; a += 1) { var t = n[a]; if (e.indexOf(t.name) > -1) { var i = {}; i[t.name] = Math.round(t.duration || t.startTime), (window.dataLayer = window.dataLayer || []).push({ event: "performance", pageview: { performance: i } }) } } }).observe({ entryTypes: ["mark", "measure", "paint"] }) } catch (e) { } };; _f.apply(null, []); })(); (function () { var _f = function () { !function () { if (1 === Math.floor(20 * Math.random()) && (!window.BOOMR || !window.BOOMR.version && !window.BOOMR.snippetExecuted)) { window.BOOMR = window.BOOMR || {}, window.BOOMR.snippetStart = (new Date).getTime(), window.BOOMR.snippetExecuted = !0, window.BOOMR.snippetVersion = 14, window.BOOMR.url = "https://s.go-mpulse.net/boomerang/ATH8A-MAMN8-XPXCH-N5KAX-8D239"; var e = (document.currentScript || document.getElementsByTagName("script")[0]).parentNode, n = !1, t = document.createElement("link"); t.relList && "function" == typeof t.relList.supports && t.relList.supports("preload") && "as" in t ? (window.BOOMR.snippetMethod = "p", t.href = window.BOOMR.url, t.rel = "preload", t.as = "script", t.addEventListener("load", function () { if (!n) { var t = document.createElement("script"); t.id = "boomr-scr-as", t.src = window.BOOMR.url, t.async = !0, e.appendChild(t), n = !0 } }), t.addEventListener("error", function () { o(!0) }), setTimeout(function () { n || o(!0) }, 3e3), BOOMR_lstart = (new Date).getTime(), e.appendChild(t)) : o(!1), window.addEventListener ? window.addEventListener("load", i, !1) : window.attachEvent && window.attachEvent("onload", i) } function o(t) { n = !0; var o, i, d, a, r = document, s = window; if (window.BOOMR.snippetMethod = t ? "if" : "i", i = function (e, n) { var t = r.createElement("script"); t.id = n || "boomr-if-as", t.src = window.BOOMR.url, BOOMR_lstart = (new Date).getTime(), (e = e || r.body).appendChild(t) }, !window.addEventListener && window.attachEvent && navigator.userAgent.match(/MSIE [67]./)) return window.BOOMR.snippetMethod = "s", void i(e, "boomr-async"); (d = document.createElement("IFRAME")).src = "about:blank", d.title = "", d.role = "presentation", d.loading = "eager", (a = (d.frameElement || d).style).width = 0, a.height = 0, a.border = 0, a.display = "none", e.appendChild(d); try { s = d.contentWindow, r = s.document.open() } catch (e) { o = document.domain, d.src = "javascript:var d=document.open();d.domain='" + o + "';void 0;", s = d.contentWindow, r = s.document.open() } o ? (r._boomrl = function () { this.domain = o, i() }, r.write("<body onload='document._boomrl();'>")) : (s._boomrl = function () { i() }, s.addEventListener ? s.addEventListener("load", s._boomrl, !1) : s.attachEvent && s.attachEvent("onload", s._boomrl)), r.close() } function i(e) { window.BOOMR_onload = e && e.timeStamp || (new Date).getTime() } }() };; _f.apply(null, []); })();</script>
+
+    <script>
+        (function (w, l) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+        })(window, 'dataLayer');
+    </script>
+
+
+
+    <!-- RELEASE 3662388f252abeeeb8bccb8ce8544d6af1d02a87 -->
+
 </body>
 
 </html>
