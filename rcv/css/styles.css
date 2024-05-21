@@ -1,0 +1,151 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+a:link {color: #afaeb0}  
+a:active {color: #afaeb0}  
+a:visited {color: #afaeb0}  
+a:hover {color: #437F3D}  
+
+
+h1 {
+  font-family: 'Ropa Sans', sans-serif;
+  color: #616062;
+  font-weight: 700;
+}
+h2 {
+  font-family: 'Ropa Sans', sans-serif;
+  color: #437F3D;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 0.9rem;
+  font-weight: 600;
+  color: #616062;
+}
+
+
+label {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  font-weight: 600;
+  color: #616062;
+}
+
+#map {
+  height: 75vh;
+  border-top: 2px solid black;
+  background-color: rgb(220, 220, 220);
+  position: relative;
+}
+
+#legend {
+  background-color: darkgray;
+  position:absolute;
+  bottom: 5px;
+  left: 5px;
+  z-index: 3000;
+  font-size: 0.8rem;
+}
+
+
+.leaflet-legend {
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  /* Legend is not shown on small screens. */
+  display: none;
+}
+
+/* Rule to toggle on/off legend. */
+.show-legend {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#legend button {
+  display: block;
+}
+
+/* When screen is 992px and wider. */
+@media screen and (min-width: 992px) {
+  #map {
+      border-top: none;
+  }
+
+  .leaflet-legend {
+      display: block;
+  }
+
+  #legend button {
+      display: none;
+  }
+}
+
+.pie {
+  width: 40px;
+  margin: 0 0 0 0;
+  
+}
+
+.dot {
+  width: 20px;
+}
+
+.legend-large,
+.legend-small {
+  border-radius: 50%;
+  border: 0px;
+}
+
+hr.small,
+hr.large {
+  width: 83px;
+  position: absolute;
+  top: -8px;
+  left: 55px;
+  border: 1px dashed #ccc;
+  margin-top: 8px;
+}
+
+.leaflet-container {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
+
+#footer {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 300;
+  color: whitesmoke;
+}
+
+#info {
+  z-index: 1000;
+  display: none;
+  width: 260px;
+  position: absolute;
+
+}
+
+#cities {
+  font-family: "Ropa Sans";
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
